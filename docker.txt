@@ -1,0 +1,21 @@
+docker
+
+budowanie obrazu z katalogu projektu i nadanie mu nazwy
+$ docker build --tag java-docker .
+
+nadanie taga obrazu dockera - tj version
+$ docker tag java-docker:latest java-docker:v1.0.0
+
+uruchamianie obrazu do kontenera
+$ docker run NAZWA_OBRAZU
+
+
+Create a volume by using the docker volume create command.
+
+$ docker volume create todo-db
+
+usuwanie containera aplikacji - parametr ID
+
+$ docker rm -f <id>
+
+MYSQL_ALLOW_EMPTY_PASSWORD 2023-08-22 18:03:56     -
